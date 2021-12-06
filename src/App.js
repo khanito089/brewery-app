@@ -23,7 +23,6 @@ function App() {
                 }
                 setBreweries(data); 
         })
-
         .catch((error) => {
             console.error(error.message);
             alert("No Data Found");
